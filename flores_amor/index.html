@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>Para mi Amor</title>
+</head>
+
+<body onclick="PlayAudio()">
+    <audio id="musica1" autoplay>
+        <source src="sound/Kumbia Kings  Dulce Niña [Letra].mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="night"></div>
+    <div class="light light-1"></div>
+    <div class="light light-2"></div>
+    <div class="light light-3"></div>
+    <div class="light light-4"></div>
+    <div class="light light-5"></div>
+    <div class="light light-6"></div>
+    <div class="light light-7"></div>
+    <div class="light light-8"></div>
+    <div class="light light-9"></div>
+    <div class="light light-10"></div>
+    <div class="light light-11"></div>
+    <div class="light light-12"></div>
+
+    <div class="description">
+        <span>Hola amor, espero que aún no sea tarde para darte esto</span>
+    </div>
+    <div class="button">
+        <button class="botones">
+            <a href="flower.html" style="color: #fff;">CLICK AQUÍ</a>
+        </button>
+    </div>
+
+    <script src="anim.js"></script>
+    <script src="main.js"></script>
+    <script>
+        function PlayAudio() {
+            var audio = document.getElementById("musica1");
+            audio.play();
+        }
+    </script>
+</body>
+
+</html>
